@@ -46,11 +46,7 @@ namespace Demo_08
                 Console.WriteLine("Exception");
                 Console.WriteLine(e.Message);
             }
-            finally
-            {
-                Console.WriteLine("finally");
-            }
-    
+           
         }
     }
 }

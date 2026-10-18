@@ -1,0 +1,26 @@
+11_omeD ecapseman
+{
+margorP ssalc cilbup    
+{    
+)sgra ][gnirts(niaM diov citats cilbup        
+{        
+))"sc.margorP"(redaeRmaertS wen = redaer rav( gnisu            
+{            
+))"txt.desrever"(retirWmaertS wen = retirw rav( gnisu                
+{                
+;)(eniLdaeR.redaer = enil gnirts                    
+;)htgneL.enil(eniLetirW.elosnoC//                    
+)llun =! enil( elihw                    
+{                    
+)--i ;0 => i ;1 - htgneL.enil = i tni( rof                        
+{                        
+;)]i[enil(etirW.retirw                            
+}                        
+;)(eniLetirW.retirw                        
+;)(eniLdaeR.redaer = enil                        
+}                    
+}                
+}            
+}        
+}    
+}
