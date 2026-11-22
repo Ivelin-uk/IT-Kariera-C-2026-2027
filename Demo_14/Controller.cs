@@ -9,7 +9,7 @@ public class Controller
 
     public Controller()
     {
-        //categories = new Dictionary<string, Category>();
+        categories = new Dictionary<string, Category>();
     }
 
 	public string AddCategory(List<string> args)
@@ -71,8 +71,8 @@ public class Controller
         if(categories.ContainsKey(name))
         {
             Category category = this.categories[name];
-            double averagePairce = category.AverageTicketPrice();
-            return $"The average ticket price is: {averagePrice} BGN";
+            double averagePrice = category.AverageTicketPrice();
+            return $"The average ticket price is: {averagePrice:F2} BGN";
         }
         else
         {
